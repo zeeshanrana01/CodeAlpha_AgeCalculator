@@ -1,0 +1,69 @@
+h1 {
+    text-align: center;
+    margin-bottom: 4rem;
+    color: blue;
+}
+body {
+    background-color: rgb(49, 192, 192);
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 10vh;
+    margin: 0;
+}
+.calculater-container {
+ background-color: rgba(222, 222, 20, 0.494);
+ padding: 6rem;
+ border: 1px;
+ border-radius: 10px;
+ box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+ width: 100%;
+ max-width: 400px;
+}
+.input-group {
+    margin-bottom: 1rem;
+}
+label {
+    display: block;
+    margin-bottom: 0.3rem;
+    color: brown;
+    
+}
+button {
+    width: 100%;
+    padding: 1rem;
+    background-color: rgb(45, 40, 40);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    margin-top: 1rem;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: rgb(163, 35, 73);
+}
+.result-container {
+    margin-top: 2rem;
+    padding: 1rem;
+    background-color: aqua;
+    border-radius: 5px;
+    text-align: center;
+
+}
+
+#ageResult {
+    font-size: 1.2rem;
+    color: black;
+    margin: 0;
+}
+
+.error-container {
+    color: blanchedalmond;
+    margin-top: 1rem;
+    text-align: center;
+    min-height: 1.5rem;
+}
